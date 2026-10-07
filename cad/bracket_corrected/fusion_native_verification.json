@@ -1,0 +1,37 @@
+{
+  "component": "KHUNG_GA_PCB_TFT_ESP32_NATIVE",
+  "frame_body_count": 1,
+  "keeper_body_count": 1,
+  "frame_sketch_count": 19,
+  "keeper_sketch_count": 20,
+  "frame": {
+    "name": "KHUNG_LIEN_KHOI",
+    "solid": true,
+    "volume_mm3": 2647.743874632007,
+    "bounds_mm": [
+      -3.95,
+      0.0,
+      -12.400000000000002,
+      25.029999999999998,
+      69.2,
+      0.0
+    ]
+  },
+  "keeper": {
+    "name": "NEP_ESP32_THAO_ROI",
+    "solid": true,
+    "volume_mm3": 563.9253831132501,
+    "bounds_mm": [
+      -3.9000000000000004,
+      27.5,
+      -14.400000000000002,
+      24.980000000000004,
+      55.5,
+      -10.900000000000002
+    ]
+  },
+  "native_sketch_extrude": true,
+  "frame_keeper_overlap_mm3": 0.0,
+  "frame_esp_overlap_mm3": 0.0,
+  "keeper_esp_overlap_mm3": 0.0
+}

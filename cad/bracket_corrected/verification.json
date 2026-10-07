@@ -1,0 +1,76 @@
+{
+  "frame": {
+    "solid_count": 1,
+    "valid": true,
+    "stl_watertight": true,
+    "stl_connected_components": 1,
+    "bounds_mm": [
+      -3.9515,
+      -0.0,
+      -12.4015,
+      25.0315,
+      69.2,
+      0.0007
+    ]
+  },
+  "rear_keeper": {
+    "solid_count": 1,
+    "valid": true,
+    "stl_watertight": true,
+    "stl_connected_components": 1,
+    "bounds_mm": [
+      -3.9,
+      27.5,
+      -14.4003,
+      24.98,
+      55.5,
+      -10.9
+    ]
+  },
+  "frame_esp_intersection_mm3": 0.0,
+  "keeper_esp_intersection_mm3": 0.0,
+  "frame_keeper_intersection_mm3": 0.0,
+  "frame_tft_pcb_intersection_mm3": 0.0,
+  "frame_lcd_intersection_mm3": 0.0,
+  "keeper_lcd_intersection_mm3": 0.0,
+  "frame_header_intersection_mm3": 0.0,
+  "frame_usb_approach_intersection_mm3": 0.0,
+  "keeper_usb_approach_intersection_mm3": 0.0,
+  "esp_pcb_mm": [
+    17.8,
+    22.7,
+    0.9
+  ],
+  "esp_board_bounds_mm": [
+    1.64,
+    30.0,
+    -11.9,
+    19.44,
+    52.7,
+    -11.0
+  ],
+  "esp_transform": {
+    "x_rotation_deg": -90,
+    "translation_mm": [
+      30.4705831467846,
+      34.87633537736675,
+      -7.8
+    ]
+  },
+  "tft_hole_centres_mm": [
+    [
+      2.41,
+      2.41
+    ],
+    [
+      18.67,
+      2.41
+    ]
+  ],
+  "assumptions": [
+    "TFT PCB thickness 1.6mm, LCD thickness proxy 1.5mm; not measured.",
+    "TFT rear components not supplied; rear support clearance requires physical fit check.",
+    "ESP STEP has no soldered headers; GPIO solder space stays open.",
+    "FDM fit and keeper contact require a physical test print."
+  ]
+}

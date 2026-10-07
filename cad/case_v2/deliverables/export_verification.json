@@ -1,0 +1,42 @@
+{
+  "01_KHUNG_HA_ESP.stl": {
+    "closed_mesh": true,
+    "connected_parts": 1,
+    "dimensions_mm": [
+      23.78000032901764,
+      70.34999692440033,
+      7.599999904632568
+    ]
+  },
+  "02_NEP_ESP.stl": {
+    "closed_mesh": true,
+    "connected_parts": 1,
+    "dimensions_mm": [
+      23.579999923706055,
+      26.30000078678131,
+      3.500000476837158
+    ]
+  },
+  "03_THAN_CASE.stl": {
+    "closed_mesh": true,
+    "connected_parts": 1,
+    "dimensions_mm": [
+      28.980000734329224,
+      78.54999852180481,
+      16.90000057220459
+    ]
+  },
+  "04_NAP_SAU.stl": {
+    "closed_mesh": true,
+    "connected_parts": 1,
+    "dimensions_mm": [
+      28.980000734329224,
+      78.54999852180481,
+      9.600000381469727
+    ]
+  },
+  "cover_to_case_motion": {
+    "positions_checked": 25,
+    "intersections_mm3": 0
+  }
+}

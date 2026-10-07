@@ -1,0 +1,240 @@
+{
+  "assembly": "FLIP_CLOCK_CASE_V3_M3_INSERTS_NATIVE",
+  "native_sketch_extrude": true,
+  "printed_parts": {
+    "01_KHUNG_HA_ESP (2)": {
+      "name": "",
+      "solid": true,
+      "volume_mm3": 4856.5214024501065,
+      "bounds_mm": [
+        -1.35,
+        -1.15,
+        -12.400000000000002,
+        22.430000000000003,
+        69.9,
+        0.0
+      ]
+    },
+    "02_NEP_ESP (2)": {
+      "name": "",
+      "solid": true,
+      "volume_mm3": 687.7431022792008,
+      "bounds_mm": [
+        -1.25,
+        -1.6,
+        -11.6,
+        22.330000000000002,
+        24.699999999999996,
+        -0.9999999999999987
+      ]
+    },
+    "03_THAN_CASE (2)": {
+      "name": "",
+      "solid": true,
+      "volume_mm3": 9067.651524392071,
+      "bounds_mm": [
+        -3.95,
+        -2.7,
+        -13.600000000000001,
+        25.03,
+        75.85,
+        5.299999999999998
+      ]
+    },
+    "04_NAP_SAU (2)": {
+      "name": "",
+      "solid": true,
+      "volume_mm3": 4695.985187219429,
+      "bounds_mm": [
+        -3.95,
+        -2.7,
+        -15.600000000000001,
+        25.03,
+        75.85,
+        -11.39160797830996
+      ]
+    }
+  },
+  "intersections_mm3": {
+    "01_KHUNG_HA_ESP (2) / 02_NEP_ESP (2)": 0.0,
+    "01_KHUNG_HA_ESP (2) / 03_THAN_CASE (2)": 0.0,
+    "01_KHUNG_HA_ESP (2) / 04_NAP_SAU (2)": 0.0,
+    "01_KHUNG_HA_ESP (2) / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "01_KHUNG_HA_ESP (2) / REF_ESP32_ACTUAL_STEP (2)": 0.0,
+    "02_NEP_ESP (2) / 03_THAN_CASE (2)": 0.0,
+    "02_NEP_ESP (2) / 04_NAP_SAU (2)": 0.0,
+    "02_NEP_ESP (2) / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "02_NEP_ESP (2) / REF_ESP32_ACTUAL_STEP (2)": 0.0,
+    "03_THAN_CASE (2) / 04_NAP_SAU (2)": 0.0,
+    "03_THAN_CASE (2) / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "03_THAN_CASE (2) / REF_ESP32_ACTUAL_STEP (2)": 0.0,
+    "04_NAP_SAU (2) / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "04_NAP_SAU (2) / REF_ESP32_ACTUAL_STEP (2)": 0.0
+  },
+  "ESP_reference_body_count": 61,
+  "ESP_board": {
+    "name": "",
+    "solid": true,
+    "volume_mm3": 338.1129849326387,
+    "bounds_mm": [
+      1.6400000000000003,
+      -1.15,
+      -9.1,
+      19.440000000000005,
+      21.550000000000047,
+      -8.200000000000001
+    ]
+  },
+  "USB_body": {
+    "name": "",
+    "solid": true,
+    "volume_mm3": 198.8275176822728,
+    "bounds_mm": [
+      6.040000000000002,
+      -2.450000000000001,
+      -12.3,
+      15.04,
+      4.950000000000099,
+      -9.1
+    ]
+  },
+  "PCB_gap_mm": 8.200000000000001,
+  "USB_front_recess_mm": 0.2499999999999991,
+  "case_outer_mm": [
+    28.98,
+    78.55,
+    20.9
+  ],
+  "TFT_to_frame_seating_gap_mm": 0.0,
+  "TFT_frame_contact_area_mm2": 325.33452295765477,
+  "USB_opening_mm": {
+    "width": 9.6,
+    "height": 3.8,
+    "corner_radius": 1.8,
+    "clearance_each_side": 0.3
+  },
+  "frame_mount_holes_mm": [
+    [
+      -1.35,
+      33,
+      -5.0
+    ],
+    [
+      -1.35,
+      58,
+      -5.0
+    ],
+    [
+      22.43,
+      33,
+      -5.0
+    ],
+    [
+      22.43,
+      58,
+      -5.0
+    ]
+  ],
+  "lid_mount_holes_mm": [
+    [
+      3.0,
+      42
+    ],
+    [
+      18.08,
+      42
+    ],
+    [
+      3.0,
+      66
+    ],
+    [
+      18.08,
+      66
+    ]
+  ],
+  "TFT_nut_pockets_mm": {
+    "across_flats": 4.2,
+    "depth": 1.75,
+    "screws": "M2 x 6 with M2 hex nuts"
+  },
+  "assembly_rigid_groups": [
+    {
+      "name": "LAP_RAP_M3_CO_DINH_DOC_LAP",
+      "occurrence_count": 9,
+      "component": "FLIP_CLOCK_CASE_V3_M3_INSERTS_NATIVE"
+    }
+  ],
+  "assembly_grounded": true,
+  "native_features": {
+    "01_KHUNG_HA_ESP (2)": {
+      "sketches": 61,
+      "extrudes": 61,
+      "combines": 1,
+      "lofts": 0,
+      "fillets": 0,
+      "warnings_or_errors": []
+    },
+    "02_NEP_ESP (2)": {
+      "sketches": 33,
+      "extrudes": 33,
+      "combines": 1,
+      "lofts": 0,
+      "fillets": 0,
+      "warnings_or_errors": []
+    },
+    "03_THAN_CASE (2)": {
+      "sketches": 26,
+      "extrudes": 16,
+      "combines": 2,
+      "lofts": 5,
+      "fillets": 1,
+      "warnings_or_errors": []
+    },
+    "04_NAP_SAU (2)": {
+      "sketches": 17,
+      "extrudes": 17,
+      "combines": 1,
+      "lofts": 0,
+      "fillets": 0,
+      "warnings_or_errors": []
+    }
+  },
+  "assumptions": [
+    "TFT PCB thickness 1.6mm + LCD 1.5mm remain dimensional references until measured.",
+    "TFT header envelope assumed 6mm behind PCB; wiring requires physical fit check.",
+    "M3 insert outer knurls intentionally press into the plastic pilot hole; hardware envelopes omit thread and knurl details.",
+    "Insert specification OD4.6 x L4 agreed by user; pilot \u00d84 x depth5 requires printed fit calibration."
+  ],
+  "hardware_components": {
+    "HW_12_M3_HEAT_SET_INSERTS": 12,
+    "HW_12_M3_FASTENER_ENVELOPES": 12
+  },
+  "hardware_intersections_mm3": {
+    "HW_12_M3_HEAT_SET_INSERTS / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "HW_12_M3_HEAT_SET_INSERTS / REF_ESP32_ACTUAL_STEP (2)": 0.0,
+    "HW_12_M3_FASTENER_ENVELOPES / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "HW_12_M3_FASTENER_ENVELOPES / REF_ESP32_ACTUAL_STEP (2)": 0.0,
+    "HW_12_M3_FASTENER_ENVELOPES / 01_KHUNG_HA_ESP (2)": 0.0,
+    "HW_12_M3_FASTENER_ENVELOPES / 02_NEP_ESP (2)": 0.0,
+    "HW_12_M3_FASTENER_ENVELOPES / 03_THAN_CASE (2)": 0.0,
+    "HW_12_M3_FASTENER_ENVELOPES / 04_NAP_SAU (2)": 0.0
+  },
+  "revision_changes": {
+    "frame_to_case": "4 independent DIN7991 countersunk M3x8 screws through side walls into frame heat-set inserts",
+    "ESP_keeper": "4 side-entry ISO7380 M3x6 screws into frame inserts",
+    "rear_lid": "4 ISO7380 M3x6 screws into frame inserts; lid removal leaves frame fixed to case",
+    "TFT": "2 M2x6 with captive M2 hex nuts, unchanged",
+    "heat_set_inserts": {
+      "count": 12,
+      "OD_mm": 4.6,
+      "length_mm": 4,
+      "pilot_diameter_mm": 4,
+      "pilot_depth_mm": 5
+    },
+    "case_width_mm": 28.98,
+    "case_depth_increase_mm": 2,
+    "PCB_seating_gap_mm": 0,
+    "assembly_path": "Straight rear insertion; no fixed case posts across path; side screws fitted after insertion"
+  }
+}

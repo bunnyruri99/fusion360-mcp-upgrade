@@ -1,0 +1,194 @@
+{
+  "assembly": "FLIP_CLOCK_CASE_LAP_RAP_NATIVE",
+  "native_sketch_extrude": true,
+  "printed_parts": {
+    "01_KHUNG_HA_ESP": {
+      "name": "",
+      "solid": true,
+      "volume_mm3": 2465.1897528916948,
+      "bounds_mm": [
+        -3.95,
+        -1.15,
+        -7.6,
+        25.029999999999998,
+        69.2,
+        0.0
+      ]
+    },
+    "02_NEP_ESP": {
+      "name": "",
+      "solid": true,
+      "volume_mm3": 534.1113831132498,
+      "bounds_mm": [
+        -3.9000000000000004,
+        -1.6,
+        -9.6,
+        24.980000000000004,
+        24.699999999999996,
+        -6.1
+      ]
+    },
+    "03_THAN_CASE": {
+      "name": "",
+      "solid": true,
+      "volume_mm3": 10003.001635767327,
+      "bounds_mm": [
+        -6.4499999999999975,
+        -2.7,
+        -11.6,
+        27.53,
+        75.85,
+        5.300000000000001
+      ]
+    },
+    "04_NAP_SAU": {
+      "name": "",
+      "solid": true,
+      "volume_mm3": 5409.450785798775,
+      "bounds_mm": [
+        -6.4499999999999975,
+        -2.7,
+        -13.600000000000001,
+        27.53,
+        75.85,
+        -10.7
+      ]
+    }
+  },
+  "intersections_mm3": {
+    "01_KHUNG_HA_ESP / 02_NEP_ESP": 0.0,
+    "01_KHUNG_HA_ESP / 03_THAN_CASE": 0.0,
+    "01_KHUNG_HA_ESP / 04_NAP_SAU": 0.0,
+    "01_KHUNG_HA_ESP / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "01_KHUNG_HA_ESP / REF_ESP32_ACTUAL_STEP": 0.0,
+    "02_NEP_ESP / 03_THAN_CASE": 0.0,
+    "02_NEP_ESP / 04_NAP_SAU": 0.0,
+    "02_NEP_ESP / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "02_NEP_ESP / REF_ESP32_ACTUAL_STEP": 0.0,
+    "03_THAN_CASE / 04_NAP_SAU": 0.0,
+    "03_THAN_CASE / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "03_THAN_CASE / REF_ESP32_ACTUAL_STEP": 0.0,
+    "04_NAP_SAU / REF_TFT_PCB_LCD_DIMENSIONAL_PROXY": 0.0,
+    "04_NAP_SAU / REF_ESP32_ACTUAL_STEP": 0.0
+  },
+  "ESP_reference_body_count": 61,
+  "ESP_board": {
+    "name": "",
+    "solid": true,
+    "volume_mm3": 338.1129849326387,
+    "bounds_mm": [
+      1.6400000000000003,
+      -1.15,
+      -7.1,
+      19.440000000000005,
+      21.550000000000047,
+      -6.200000000000001
+    ]
+  },
+  "USB_body": {
+    "name": "",
+    "solid": true,
+    "volume_mm3": 198.8275176822728,
+    "bounds_mm": [
+      6.040000000000002,
+      -2.450000000000001,
+      -10.3,
+      15.04,
+      4.950000000000099,
+      -7.1
+    ]
+  },
+  "PCB_gap_mm": 6.200000000000001,
+  "USB_front_recess_mm": 0.2499999999999991,
+  "case_outer_mm": [
+    33.98,
+    78.55,
+    18.9
+  ],
+  "USB_opening_mm": {
+    "width": 9.6,
+    "height": 3.8,
+    "corner_radius": 1.8,
+    "clearance_each_side": 0.3
+  },
+  "frame_mount_holes_mm": [
+    [
+      -2,
+      28
+    ],
+    [
+      23.08,
+      28
+    ],
+    [
+      -2,
+      61.5
+    ],
+    [
+      23.08,
+      61.5
+    ]
+  ],
+  "lid_mount_holes_mm": [
+    [
+      -4.25,
+      34
+    ],
+    [
+      25.33,
+      34
+    ],
+    [
+      -4.25,
+      69.5
+    ],
+    [
+      25.33,
+      69.5
+    ]
+  ],
+  "TFT_nut_pockets_mm": {
+    "across_flats": 4.2,
+    "depth": 1.75,
+    "screws": "M2 x 6 with M2 hex nuts"
+  },
+  "assembly_rigid_groups": [
+    {
+      "name": "LAP_RAP_CO_DINH_KHUNG_CASE",
+      "occurrence_count": 7,
+      "component": "FLIP_CLOCK_CASE_LAP_RAP_NATIVE"
+    }
+  ],
+  "assembly_grounded": true,
+  "native_features": {
+    "01_KHUNG_HA_ESP": {
+      "sketches": 31,
+      "extrudes": 31,
+      "combines": 1,
+      "warnings_or_errors": []
+    },
+    "02_NEP_ESP": {
+      "sketches": 25,
+      "extrudes": 25,
+      "combines": 1,
+      "warnings_or_errors": []
+    },
+    "03_THAN_CASE": {
+      "sketches": 21,
+      "extrudes": 21,
+      "combines": 1,
+      "warnings_or_errors": []
+    },
+    "04_NAP_SAU": {
+      "sketches": 15,
+      "extrudes": 15,
+      "combines": 1,
+      "warnings_or_errors": []
+    }
+  },
+  "assumptions": [
+    "TFT PCB thickness 1.6mm + LCD 1.5mm remain dimensional references until measured.",
+    "TFT header envelope assumed 6mm behind PCB; wiring requires physical fit check.",
+    "M2 plastic pilot holes are 1.7mm; fit depends on print material and settings."
+  ]
+}

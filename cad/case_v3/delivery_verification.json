@@ -1,0 +1,40 @@
+{
+  "STL_parts": {
+    "01_KHUNG_HA_ESP": {
+      "closed": true,
+      "connected_components": 1,
+      "volume_mm3": 4848.345913148097,
+      "native_STEP_volume_mm3": 4856.521403691141,
+      "volume_error_fraction": 0.0016834046148403005,
+      "bytes": 307284
+    },
+    "02_NEP_ESP": {
+      "closed": true,
+      "connected_components": 1,
+      "volume_mm3": 688.0075895009103,
+      "native_STEP_volume_mm3": 687.7431022854491,
+      "volume_error_fraction": 0.00038457269085247605,
+      "bytes": 47284
+    },
+    "03_THAN_CASE": {
+      "closed": true,
+      "connected_components": 1,
+      "volume_mm3": 9066.00494715849,
+      "native_STEP_volume_mm3": 9067.518624687893,
+      "volume_error_fraction": 0.00016693404139053982,
+      "bytes": 333984
+    },
+    "04_NAP_SAU": {
+      "closed": true,
+      "connected_components": 1,
+      "volume_mm3": 4696.315272852512,
+      "native_STEP_volume_mm3": 4695.985187285975,
+      "volume_error_fraction": 7.029101527625413e-05,
+      "bytes": 125484
+    }
+  },
+  "case_frame_contact_area_mm2": {
+    "left": 65.59645460694765,
+    "right": 65.59645460703506
+  }
+}

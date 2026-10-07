@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "fusion360": {
+      "command": "python",
+      "args": ["-m", "fusion360_mcp.server"],
+      "env": {
+        "PYTHONPATH": "src",
+        "FUSION_HOST": "127.0.0.1",
+        "FUSION_PORT": "9876",
+        "FUSION_TIMEOUT": "30.0"
+      }
+    }
+  }
+}

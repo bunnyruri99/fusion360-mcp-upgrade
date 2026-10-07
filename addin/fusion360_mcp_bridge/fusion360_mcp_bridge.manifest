@@ -1,0 +1,12 @@
+{
+  "autodeskProduct": "Fusion",
+  "type": "addin",
+  "id": "fusion360-mcp-bridge-bertalanffy",
+  "author": "Bertalanffy Labs",
+  "description": {
+    "": "MCP bridge add-in — exposes Fusion 360 API over TCP for Claude/MCP clients"
+  },
+  "version": "0.1.0",
+  "runOnStartup": false,
+  "supportedOS": "windows|mac"
+}

@@ -1,0 +1,80 @@
+{
+  "frame": {
+    "volume_mm3": 2465.189752891716,
+    "solid_count": 1,
+    "bounds_mm": [
+      -3.95,
+      -1.15,
+      -7.6,
+      25.029999999999998,
+      69.2,
+      0.0
+    ]
+  },
+  "keeper": {
+    "volume_mm3": 534.1113831132506,
+    "solid_count": 1,
+    "bounds_mm": [
+      -3.9,
+      -1.6,
+      -9.6,
+      24.98,
+      24.7,
+      -6.1
+    ]
+  },
+  "case": {
+    "volume_mm3": 10003.001635767323,
+    "solid_count": 1,
+    "bounds_mm": [
+      -6.449999999999999,
+      -2.7000000000000033,
+      -11.6,
+      27.529999999999998,
+      75.85,
+      5.299999999999999
+    ]
+  },
+  "lid": {
+    "volume_mm3": 5409.450785798768,
+    "solid_count": 1,
+    "bounds_mm": [
+      -6.449999999999999,
+      -2.7000000000000033,
+      -13.6,
+      27.529999999999998,
+      75.85,
+      -10.7
+    ]
+  },
+  "frame_keeper_overlap_mm3": 0.0,
+  "frame_case_overlap_mm3": 0.0,
+  "frame_lid_overlap_mm3": 0.0,
+  "frame_ESP_actual_STEP_overlap_mm3": 0.0,
+  "frame_TFT_PCB_proxy_overlap_mm3": 0.0,
+  "frame_LCD_proxy_overlap_mm3": 0.0,
+  "frame_header_proxy_overlap_mm3": 0.0,
+  "keeper_case_overlap_mm3": 0.0,
+  "keeper_lid_overlap_mm3": 0.0,
+  "keeper_ESP_actual_STEP_overlap_mm3": 0.0,
+  "keeper_TFT_PCB_proxy_overlap_mm3": 0.0,
+  "keeper_LCD_proxy_overlap_mm3": 0.0,
+  "keeper_header_proxy_overlap_mm3": 0.0,
+  "case_lid_overlap_mm3": 0.0,
+  "case_ESP_actual_STEP_overlap_mm3": 0.0,
+  "case_TFT_PCB_proxy_overlap_mm3": 0.0,
+  "case_LCD_proxy_overlap_mm3": 0.0,
+  "case_header_proxy_overlap_mm3": 0.0,
+  "lid_ESP_actual_STEP_overlap_mm3": 0.0,
+  "lid_TFT_PCB_proxy_overlap_mm3": 0.0,
+  "lid_LCD_proxy_overlap_mm3": 0.0,
+  "lid_header_proxy_overlap_mm3": 0.0,
+  "USB_aperture_mm": {
+    "width": 9.6,
+    "height": 3.8,
+    "corner_radius": 1.8,
+    "radial_clearance": 0.3
+  },
+  "USB_front_recess_mm": 0.25,
+  "PCB_gap_mm": 6.2
+}

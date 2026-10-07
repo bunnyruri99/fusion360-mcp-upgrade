@@ -1,0 +1,432 @@
+{
+  "printed_parts": {
+    "frame": {
+      "volume_mm3": 4856.521403691141,
+      "bounds_mm": [
+        -1.3500000000000014,
+        -1.15,
+        -12.4,
+        22.43,
+        69.9,
+        0.0
+      ]
+    },
+    "keeper": {
+      "volume_mm3": 687.7431022854491,
+      "bounds_mm": [
+        -1.25,
+        -1.6,
+        -11.6,
+        22.33,
+        24.7,
+        -1.0
+      ]
+    },
+    "case": {
+      "volume_mm3": 9067.518624687893,
+      "bounds_mm": [
+        -3.9500001,
+        -2.7000001,
+        -13.6,
+        25.030000100000002,
+        75.85000009999999,
+        5.3000001
+      ]
+    },
+    "lid": {
+      "volume_mm3": 4695.985187285975,
+      "bounds_mm": [
+        -3.95,
+        -2.7,
+        -15.6,
+        25.03,
+        75.85,
+        -11.391607978309995
+      ]
+    }
+  },
+  "intersections_mm3": {
+    "frame / keeper": 0.0,
+    "frame / case": 0.0,
+    "frame / lid": 0.0,
+    "frame / ESP_actual_STEP": 0.0,
+    "frame / TFT_PCB_proxy": 0.0,
+    "frame / LCD_proxy": 0.0,
+    "frame / header_proxy": 0.0,
+    "keeper / case": 0.0,
+    "keeper / lid": 0.0,
+    "keeper / ESP_actual_STEP": 0.0,
+    "keeper / TFT_PCB_proxy": 0.0,
+    "keeper / LCD_proxy": 0.0,
+    "keeper / header_proxy": 0.0,
+    "case / lid": 0.0,
+    "case / ESP_actual_STEP": 0.0,
+    "case / TFT_PCB_proxy": 0.0,
+    "case / LCD_proxy": 0.0,
+    "case / header_proxy": 0.0,
+    "lid / ESP_actual_STEP": 0.0,
+    "lid / TFT_PCB_proxy": 0.0,
+    "lid / LCD_proxy": 0.0,
+    "lid / header_proxy": 0.0
+  },
+  "hardware_clearances_mm3": {
+    "NEP_left_9.3 / ESP_actual_STEP": 0.0,
+    "NEP_left_9.3 / TFT_PCB_proxy": 0.0,
+    "NEP_left_9.3 / LCD_proxy": 0.0,
+    "NEP_left_9.3 / header_proxy": 0.0,
+    "NEP_right_9.3 / ESP_actual_STEP": 0.0,
+    "NEP_right_9.3 / TFT_PCB_proxy": 0.0,
+    "NEP_right_9.3 / LCD_proxy": 0.0,
+    "NEP_right_9.3 / header_proxy": 0.0,
+    "NEP_left_20.0 / ESP_actual_STEP": 0.0,
+    "NEP_left_20.0 / TFT_PCB_proxy": 0.0,
+    "NEP_left_20.0 / LCD_proxy": 0.0,
+    "NEP_left_20.0 / header_proxy": 0.0,
+    "NEP_right_20.0 / ESP_actual_STEP": 0.0,
+    "NEP_right_20.0 / TFT_PCB_proxy": 0.0,
+    "NEP_right_20.0 / LCD_proxy": 0.0,
+    "NEP_right_20.0 / header_proxy": 0.0,
+    "FRAME_left_33 / ESP_actual_STEP": 0.0,
+    "FRAME_left_33 / TFT_PCB_proxy": 0.0,
+    "FRAME_left_33 / LCD_proxy": 0.0,
+    "FRAME_left_33 / header_proxy": 0.0,
+    "FRAME_right_33 / ESP_actual_STEP": 0.0,
+    "FRAME_right_33 / TFT_PCB_proxy": 0.0,
+    "FRAME_right_33 / LCD_proxy": 0.0,
+    "FRAME_right_33 / header_proxy": 0.0,
+    "FRAME_left_58 / ESP_actual_STEP": 0.0,
+    "FRAME_left_58 / TFT_PCB_proxy": 0.0,
+    "FRAME_left_58 / LCD_proxy": 0.0,
+    "FRAME_left_58 / header_proxy": 0.0,
+    "FRAME_right_58 / ESP_actual_STEP": 0.0,
+    "FRAME_right_58 / TFT_PCB_proxy": 0.0,
+    "FRAME_right_58 / LCD_proxy": 0.0,
+    "FRAME_right_58 / header_proxy": 0.0,
+    "LID_3.0_42 / ESP_actual_STEP": 0.0,
+    "LID_3.0_42 / TFT_PCB_proxy": 0.0,
+    "LID_3.0_42 / LCD_proxy": 0.0,
+    "LID_3.0_42 / header_proxy": 0.0,
+    "LID_18.08_42 / ESP_actual_STEP": 0.0,
+    "LID_18.08_42 / TFT_PCB_proxy": 0.0,
+    "LID_18.08_42 / LCD_proxy": 0.0,
+    "LID_18.08_42 / header_proxy": 0.0,
+    "LID_3.0_66 / ESP_actual_STEP": 0.0,
+    "LID_3.0_66 / TFT_PCB_proxy": 0.0,
+    "LID_3.0_66 / LCD_proxy": 0.0,
+    "LID_3.0_66 / header_proxy": 0.0,
+    "LID_18.08_66 / ESP_actual_STEP": 0.0,
+    "LID_18.08_66 / TFT_PCB_proxy": 0.0,
+    "LID_18.08_66 / LCD_proxy": 0.0,
+    "LID_18.08_66 / header_proxy": 0.0,
+    "NEP_M3x6_left_9.3 / frame": 0.0,
+    "NEP_M3x6_left_9.3 / keeper": 0.0,
+    "NEP_M3x6_left_9.3 / case": 0.0,
+    "NEP_M3x6_left_9.3 / lid": 0.0,
+    "NEP_M3x6_left_9.3 / ESP_actual_STEP": 0.0,
+    "NEP_M3x6_left_9.3 / TFT_PCB_proxy": 0.0,
+    "NEP_M3x6_left_9.3 / LCD_proxy": 0.0,
+    "NEP_M3x6_left_9.3 / header_proxy": 0.0,
+    "NEP_M3x6_right_9.3 / frame": 0.0,
+    "NEP_M3x6_right_9.3 / keeper": 0.0,
+    "NEP_M3x6_right_9.3 / case": 0.0,
+    "NEP_M3x6_right_9.3 / lid": 0.0,
+    "NEP_M3x6_right_9.3 / ESP_actual_STEP": 0.0,
+    "NEP_M3x6_right_9.3 / TFT_PCB_proxy": 0.0,
+    "NEP_M3x6_right_9.3 / LCD_proxy": 0.0,
+    "NEP_M3x6_right_9.3 / header_proxy": 0.0,
+    "NEP_M3x6_left_20.0 / frame": 0.0,
+    "NEP_M3x6_left_20.0 / keeper": 0.0,
+    "NEP_M3x6_left_20.0 / case": 0.0,
+    "NEP_M3x6_left_20.0 / lid": 0.0,
+    "NEP_M3x6_left_20.0 / ESP_actual_STEP": 0.0,
+    "NEP_M3x6_left_20.0 / TFT_PCB_proxy": 0.0,
+    "NEP_M3x6_left_20.0 / LCD_proxy": 0.0,
+    "NEP_M3x6_left_20.0 / header_proxy": 0.0,
+    "NEP_M3x6_right_20.0 / frame": 0.0,
+    "NEP_M3x6_right_20.0 / keeper": 0.0,
+    "NEP_M3x6_right_20.0 / case": 0.0,
+    "NEP_M3x6_right_20.0 / lid": 0.0,
+    "NEP_M3x6_right_20.0 / ESP_actual_STEP": 0.0,
+    "NEP_M3x6_right_20.0 / TFT_PCB_proxy": 0.0,
+    "NEP_M3x6_right_20.0 / LCD_proxy": 0.0,
+    "NEP_M3x6_right_20.0 / header_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_left_33 / frame": 0.0,
+    "FRAME_DIN7991_M3x8_left_33 / keeper": 0.0,
+    "FRAME_DIN7991_M3x8_left_33 / case": 0.0,
+    "FRAME_DIN7991_M3x8_left_33 / lid": 0.0,
+    "FRAME_DIN7991_M3x8_left_33 / ESP_actual_STEP": 0.0,
+    "FRAME_DIN7991_M3x8_left_33 / TFT_PCB_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_left_33 / LCD_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_left_33 / header_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_right_33 / frame": 0.0,
+    "FRAME_DIN7991_M3x8_right_33 / keeper": 0.0,
+    "FRAME_DIN7991_M3x8_right_33 / case": 0.0,
+    "FRAME_DIN7991_M3x8_right_33 / lid": 0.0,
+    "FRAME_DIN7991_M3x8_right_33 / ESP_actual_STEP": 0.0,
+    "FRAME_DIN7991_M3x8_right_33 / TFT_PCB_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_right_33 / LCD_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_right_33 / header_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_left_58 / frame": 0.0,
+    "FRAME_DIN7991_M3x8_left_58 / keeper": 0.0,
+    "FRAME_DIN7991_M3x8_left_58 / case": 0.0,
+    "FRAME_DIN7991_M3x8_left_58 / lid": 0.0,
+    "FRAME_DIN7991_M3x8_left_58 / ESP_actual_STEP": 0.0,
+    "FRAME_DIN7991_M3x8_left_58 / TFT_PCB_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_left_58 / LCD_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_left_58 / header_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_right_58 / frame": 0.0,
+    "FRAME_DIN7991_M3x8_right_58 / keeper": 0.0,
+    "FRAME_DIN7991_M3x8_right_58 / case": 0.0,
+    "FRAME_DIN7991_M3x8_right_58 / lid": 0.0,
+    "FRAME_DIN7991_M3x8_right_58 / ESP_actual_STEP": 0.0,
+    "FRAME_DIN7991_M3x8_right_58 / TFT_PCB_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_right_58 / LCD_proxy": 0.0,
+    "FRAME_DIN7991_M3x8_right_58 / header_proxy": 0.0,
+    "LID_M3x6_3.0_42 / frame": 0.0,
+    "LID_M3x6_3.0_42 / keeper": 0.0,
+    "LID_M3x6_3.0_42 / case": 0.0,
+    "LID_M3x6_3.0_42 / lid": 0.0,
+    "LID_M3x6_3.0_42 / ESP_actual_STEP": 0.0,
+    "LID_M3x6_3.0_42 / TFT_PCB_proxy": 0.0,
+    "LID_M3x6_3.0_42 / LCD_proxy": 0.0,
+    "LID_M3x6_3.0_42 / header_proxy": 0.0,
+    "LID_M3x6_18.08_42 / frame": 0.0,
+    "LID_M3x6_18.08_42 / keeper": 0.0,
+    "LID_M3x6_18.08_42 / case": 0.0,
+    "LID_M3x6_18.08_42 / lid": 0.0,
+    "LID_M3x6_18.08_42 / ESP_actual_STEP": 0.0,
+    "LID_M3x6_18.08_42 / TFT_PCB_proxy": 0.0,
+    "LID_M3x6_18.08_42 / LCD_proxy": 0.0,
+    "LID_M3x6_18.08_42 / header_proxy": 0.0,
+    "LID_M3x6_3.0_66 / frame": 0.0,
+    "LID_M3x6_3.0_66 / keeper": 0.0,
+    "LID_M3x6_3.0_66 / case": 0.0,
+    "LID_M3x6_3.0_66 / lid": 0.0,
+    "LID_M3x6_3.0_66 / ESP_actual_STEP": 0.0,
+    "LID_M3x6_3.0_66 / TFT_PCB_proxy": 0.0,
+    "LID_M3x6_3.0_66 / LCD_proxy": 0.0,
+    "LID_M3x6_3.0_66 / header_proxy": 0.0,
+    "LID_M3x6_18.08_66 / frame": 0.0,
+    "LID_M3x6_18.08_66 / keeper": 0.0,
+    "LID_M3x6_18.08_66 / case": 0.0,
+    "LID_M3x6_18.08_66 / lid": 0.0,
+    "LID_M3x6_18.08_66 / ESP_actual_STEP": 0.0,
+    "LID_M3x6_18.08_66 / TFT_PCB_proxy": 0.0,
+    "LID_M3x6_18.08_66 / LCD_proxy": 0.0,
+    "LID_M3x6_18.08_66 / header_proxy": 0.0
+  },
+  "module_insertion_samples": [
+    {
+      "Z_offset_mm": -24.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -23.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -23.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -22.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -22.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -21.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -21.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -20.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -20.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -19.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -19.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -18.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -18.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -17.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -17.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -16.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -16.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -15.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -15.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -14.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -14.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -13.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -13.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -12.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -12.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -11.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -11.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -10.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -10.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -9.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -9.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -8.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -8.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -7.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -7.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -6.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -6.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -5.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -5.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -4.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -4.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -3.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -3.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -2.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -2.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -1.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -1.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": -0.5,
+      "intersection_mm3": 0.0
+    },
+    {
+      "Z_offset_mm": 0.0,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "lid_insertion_samples": 25,
+  "M3_screw_count": 12,
+  "M3_insert_count": 12,
+  "insert_mm": {
+    "outer_diameter": 4.6,
+    "length": 4,
+    "pilot_diameter": 4,
+    "pocket_depth": 5
+  },
+  "case_outer_mm": [
+    28.98,
+    78.55,
+    20.9
+  ],
+  "geometry_source": "Fusion native STEP exports",
+  "volume_calculation": "Adaptive integration, epsilon 1e-9, for exported B-spline surfaces"
+}

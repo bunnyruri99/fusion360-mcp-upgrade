@@ -1,0 +1,47 @@
+{
+  "01_KHUNG_HA_ESP.stl": {
+    "watertight": true,
+    "connected_parts": 1,
+    "size_mm": [
+      28.980000734329224,
+      70.34999692440033,
+      7.599999904632568
+    ],
+    "volume_mm3": 2464.748437568623
+  },
+  "02_NEP_ESP.stl": {
+    "watertight": true,
+    "connected_parts": 1,
+    "size_mm": [
+      28.87999963760376,
+      26.30000078678131,
+      3.500000476837158
+    ],
+    "volume_mm3": 534.2656878186883
+  },
+  "03_THAN_CASE.stl": {
+    "watertight": true,
+    "connected_parts": 1,
+    "size_mm": [
+      33.980000495910645,
+      78.54999852180481,
+      16.90000057220459
+    ],
+    "volume_mm3": 9999.690690606652
+  },
+  "04_NAP_SAU.stl": {
+    "watertight": true,
+    "connected_parts": 1,
+    "size_mm": [
+      33.980000495910645,
+      78.54999852180481,
+      2.90000057220459
+    ],
+    "volume_mm3": 5409.504064055456
+  },
+  "flip_clock_case_native.f3d": {
+    "Fusion_export_succeeded": true,
+    "bytes": 1551986,
+    "archive_crc_valid": true
+  }
+}
